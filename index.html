@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="John Sneddon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Arnold, Clark, Hack day, Space, Age, Calcukator">
+    <meta name="description" content="My space age calculator entry test to Arnold Clark's Hack day">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide%7cOpen+Sans" rel="stylesheet"> 
+    <title>Space Age Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Space Age Calculator</h1>
+        <p>Find out how old you are on different planets!</p>
+    </header>
+
+    <main>
+        <div class="block" id="block-earth">
+           <h1>Earth</h1>
+            <img src="images/globe.svg" alt="Earth" width="150" height="150"><br/>
+                <label for="age">Enter your age</label><br/>
+                <input type="number" name="age" id="age" placeholder="0" required><br/>
+                <button name="submit-age" id="submit-age">Calculate</button>
+                <p style="text-align: left">Days: <span id="earth-days">0</span></p>
+                <p style="text-align: left">Seconds: <span id="earth-seconds">0</span></p>
+        </div>
+        <hr/>
+        <div class="container">
+            <div class="block">
+                <h2>Mercury</h2>
+                <div class="planet" id="planet-mercury"></div>
+                <p>Orbital Period</p>
+                <p id="mercury">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Venus</h2>
+                <div class="planet" id="planet-venus"></div>
+                <p>Orbital Period</p>
+                <p id="venus">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Mars</h2>
+                <div class="planet" id="planet-mars"></div>
+                <p>Orbital Period</p>
+                <p id="mars">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Jupiter</h2>
+                <div class="planet" id="planet-jupiter"></div>
+                <p>Orbital Period</p>
+                <p id="jupiter">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Saturn</h2>
+                <div class="planet" id="planet-saturn"></div>
+                <p>Orbital Period</p>
+                <p id="saturn">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Uranus</h2>
+                <div class="planet" id="planet-uranus"></div>
+                <p>Orbital Period</p>
+                <p id="uranus">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Neptune</h2>
+                <div class="planet" id="planet-neptune"></div>
+                <p>Orbital Period</p>
+                <p id="neptune">0</p>
+                <p>Earth Years</p>
+            </div>
+            <div class="block">
+                <h2>Pluto</h2>
+                <div class="planet" id="planet-pluto"></div>
+                <p>Orbital Period</p>
+                <p id="pluto">0</p>
+                <p>Earth Years</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Created by John Sneddon</p>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
